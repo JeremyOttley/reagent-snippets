@@ -1,0 +1,4 @@
+(defonce counter (r/atom 0))
+
+;; To increase the counter by one:
+;; #(swap! counter inc)
